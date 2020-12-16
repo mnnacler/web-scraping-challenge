@@ -46,7 +46,7 @@
               {% for item in mars.hemisphere_image %}
               <div class="col-md-6">
                   <div class="card text-white bg-dark" style="margin: 30px;"> 
-                      <img src="{{item['url']}}">
+                      <img src="{{item['url']}}" style="max-width:100%; max-height: auto;">
                       <div class="card-body">
                           <p class="card-text">{{ item.Title }}</p>
                       </div>
